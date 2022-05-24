@@ -1,0 +1,20 @@
+{
+    "name": "algorithm-js",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:ouyangshikang/algorithm-js.git",
+    "author": "baituo <baituo@gaoding.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest --detectOpenHandles"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.14",
+        "@babel/preset-env": "^7.13.12",
+        "@types/jest": "^27.0.2",
+        "babel-jest": "^27.3.0",
+        "jest": "^27.3.0",
+        "typescript": "^4.2.3",
+        "ts-jest": "^27.0.7"
+    }
+}

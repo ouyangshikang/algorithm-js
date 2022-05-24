@@ -17,24 +17,24 @@
     假设我们的环境只能处理 32 位 int 范围内的整数。根据这个假设，如果颠倒后的结果超过这个范围，则返回 0
  */
 
- /**
+/**
  * @param {number} x
  * @return {number}
  */
-var reverse = function(x) {
+var reverse = function (x) {
     var max = Math.pow(2, 31);
     var tmp = Math.abs(x);
     var result = 0;
     if (tmp >= 0 && tmp <= max) {
-       var arr = tmp.toString().split('');
-       var len = arr.length
-       for (let i = 0; i < len; i++) {
-           result += arr[i] * Math.pow(10, i);
-       }
-       if (result <= max) {
-           return x <= 0 ? -result : result;
-       } else {
-           return 0;
-       } 
+        var arr = tmp.toString().split('');
+        var len = arr.length;
+        for (let i = 0; i < len; i++) {
+            result += arr[i] * Math.pow(10, i);
+        }
+        if (result <= max) {
+            return x <= 0 ? -result : result;
+        } else {
+            return 0;
+        }
     }
 };
