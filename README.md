@@ -27,7 +27,7 @@
 </details>
 
 <details>
-    <summary>tree 树 :star: </summary>
+    <summary>tree 树✨ </summary>
     <ul></ul>
 </details>
 
@@ -100,4 +100,7 @@
 
 ## interview
 
--   看到的一些面试代码题记录...
+<details>
+    <summary>记录一些有趣的算法面试题...</summary>
+    <ul></ul>
+</details>
