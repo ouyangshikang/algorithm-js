@@ -7,6 +7,7 @@
 <details>
     <summary>array 数组</summary>
     <ul>
+        <li>1.两数之和</li>
         <li>189.轮转数组</li>
     </ul>
 </details>
@@ -80,7 +81,10 @@
 
 <details>
     <summary>dynamic 动态规划✨</summary>
-    <ul></ul>
+    <ul>
+        <li>300.最长递增子序列</li>
+        <li>509.斐波那契数</li>
+    </ul>
 </details>
 
 <details>

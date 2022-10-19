@@ -8,8 +8,8 @@
 
 /**
  * 解题思路: 数组末尾pop, 头部 unshift
- * 时间复杂度: n^2
- * 空间复杂度: 1
+ * 时间复杂度: O(n^2)
+ * 空间复杂度: O(1)
  */
 export function rotateArray1(arr: number[], k: number): number[] {
     const length = arr.length;
@@ -28,8 +28,8 @@ export function rotateArray1(arr: number[], k: number): number[] {
 
 /**
  * 解题思路：数组拆分，concat 拼接到一起
- * 时间复杂度：1
- * 空间复杂度：n
+ * 时间复杂度：O(1)
+ * 空间复杂度：O(n)
  */
 
 export function rotateArray2(arr: number[], k: number): number[] {
