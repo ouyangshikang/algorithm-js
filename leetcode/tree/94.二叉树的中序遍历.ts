@@ -23,3 +23,25 @@ function inorderTraversal(root: TreeNode | null): number[] {
 
     return result;
 }
+
+/**
+ * 解题思路：迭代(栈模拟递归)
+ */
+function inorderTraversal2(root: TreeNode | null): number[] {
+    if (root === null) return [];
+
+    let stack = [];
+    let result = [];
+
+    while (root || stack.length) {
+        while (root) {
+            stack.push(root);
+            root = root.left;
+        }
+
+        const node: TreeNode = stack.pop()!;
+        result.push(node.val);
+        root = node.right;
+    }
+    return result;
+}
